@@ -1,0 +1,49 @@
+{
+  "name": "node-backend-template",
+  "version": "1.0.0",
+  "description": "Backend template for Node.js",
+  "type": "module",
+  "engines": {
+    "node": "20.9.0"
+  },
+  "scripts": {
+    "serve:development": "nodemon --env-file=.env src/index.js",
+    "serve:production": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcomoauro/node-backend-template.git"
+  },
+  "keywords": [
+    "template",
+    "backend",
+    "node.js",
+    "koa.js"
+  ],
+  "author": "Marco Moauro <marcomoauro@hotmail.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcomoauro/node-backend-template/issues"
+  },
+  "homepage": "https://github.com/marcomoauro/node-backend-template#readme",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^12.0.0",
+    "axios": "^1.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.14.2",
+    "koa-better-json": "2.5.0",
+    "koa-better-log": "^1.0.5",
+    "koa-body": "^6.0.1",
+    "koa-no-slash": "^1.0.2",
+    "lodash": "^4.17.21",
+    "luxon": "^3.4.4",
+    "memoizee": "^0.4.15",
+    "nano-id": "^1.1.0",
+    "nodemailer": "^6.9.5",
+    "nodemon": "^3.0.1",
+    "p-queue": "^8.0.1",
+    "pg-monitor": "^2.0.0",
+    "pg-promise": "^11.5.4"
+  }
+}
