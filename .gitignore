@@ -9,4 +9,4 @@ docs/openapi*.json
 .DS_Store
 /yarn-error.log
 /yarn*/
-.env*
+.env
