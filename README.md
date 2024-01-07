@@ -14,6 +14,8 @@ yarn install
 
 ## How to use
 
+- Create the .env file based on the env-template, the only env to configure is DATABASE_URL, leave it empty for now, you can configure it later.
+- Starts the server by executing:
 ```sh
 yarn serve:development
 ```
