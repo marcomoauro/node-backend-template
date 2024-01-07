@@ -1,7 +1,7 @@
-import {APIError404, APIError500} from "../errors.js";
+import {APIError422, APIError500} from "../errors.js";
 
-export const throw404 = () => {
-  throw new APIError404()
+export const throw422 = () => {
+  throw new APIError422()
 }
 
 export const throw500 = () => {
