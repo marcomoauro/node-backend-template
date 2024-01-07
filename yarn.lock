@@ -764,11 +764,6 @@ koa-convert@^2.0.0:
     co "^4.6.0"
     koa-compose "^4.1.0"
 
-koa-no-slash@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/koa-no-slash/-/koa-no-slash-1.0.2.tgz#2750f4ad89a306c228af4d448b0669a3f7d411fc"
-  integrity sha512-BUcQpcV5yvbjXQFZzJLfL9vqKeUFb3Y1yyuI0MIe1GGDQo0LlbHkEyxXcpC51H6HGulNGqcdpYOdzXKAol6qcw==
-
 koa@^2.14.2:
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/koa/-/koa-2.15.0.tgz#d24ae1b0ff378bf12eb3df584ab4204e4c12ac2b"

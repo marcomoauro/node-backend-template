@@ -72,18 +72,14 @@ export const routeToFunction =
 const getContextParams = (ctx) => {
   let args;
 
-  if (ctx?.request?.headers?.['content-type']?.startsWith('application/json')) {
-    args = [ctx.request.body];
-  } else {
-    args = [
-      {
-        files: ctx.request.files,
-        ...ctx.request.query,
-        ...ctx.request.body,
-        ...ctx.request.params,
-      },
-    ];
-  }
+  args = [
+    {
+      files: ctx.request.files,
+      ...ctx.request.query,
+      ...ctx.request.body,
+      ...ctx.request.params,
+    },
+  ];
 
   return args;
 };
