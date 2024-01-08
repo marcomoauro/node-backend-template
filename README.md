@@ -21,4 +21,5 @@ yarn serve:development
 ```
 
 ## References
-I talk about this project in this episode of my tech newsletter: https://implementing.substack.com/p/6-technologies-you-should-know-as
+I talk about this project in this episode of my tech newsletter:
+https://implementing.substack.com/p/my-backend-template-for-nodejs
